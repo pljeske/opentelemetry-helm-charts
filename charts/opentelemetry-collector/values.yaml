@@ -246,6 +246,9 @@ extraVolumes: []
 # This also supports template content, which will eventually be converted to yaml.
 extraVolumeMounts: []
 
+# Additional manifests to deploy with the helm release
+extraManifests: []
+
 # Configuration for ports
 # nodePort is also allowed
 ports:
